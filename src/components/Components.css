@@ -1,0 +1,61 @@
+:root{
+    --colorNumberOne: #171717;
+    --colorNumberTwo: #7D20F8;
+}
+
+.nav{
+    height: 80px;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav h1{
+    font-size: 25px;
+    color: var(--colorNumberOne);
+}
+
+.nav h1 span{
+    color: var(--colorNumberTwo);
+}
+.contentButton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btnStart{
+    width: 140px;
+    height: 50px;
+    border-radius: 7px;
+    background-color: var(--colorNumberTwo);
+    color: #fff;
+    cursor: pointer;
+    margin-right: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btnStart h2, .btnReg h2{
+    font-size: 17px;
+    font-weight: 500;
+    font-family:'Outfit', sans-serif;
+}
+
+.btnReg{
+    width: 140px;
+    height: 50px;
+    border-radius: 7px;
+    background-color: none;
+    color: var(--colorNumberTwo);
+    cursor: pointer;
+    border: solid 3px var(--colorNumberTwo);
+    box-sizing: border-box;
+    margin-left: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
